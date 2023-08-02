@@ -1,49 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
     <title>Dashboard Admin</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="navigation">
-            <ul>
-                <li>
-                    <span class="icon"></span>
-                    <span class="title"><h2>Brand name</h2></span>
-                </li>
-                <li>
-                    <span class="icon"></span>
-                    <span class="title"><h2>Dashboard</h2></span>
-                </li>
-                <li>
-                    <span class="icon"></span>
-                    <span class="title"><h2>Customer</h2></span>
-                </li>
-                <li>
-                    <span class="icon"></span>
-                    <span class="title"><h2>Message</h2></span>
-                </li>
-                <li>
-                    <span class="icon"></span>
-                    <span class="title"><h2>Help</h2></span>
-                </li>
-                <li>
-                    <span class="icon"></span>
-                    <span class="title"><h2>Settings</h2></span>
-                </li>
-                <li>
-                    <span class="icon"></span>
-                    <span class="title"><h2>Password</h2></span>
-                </li>
-                <li>
-                    <span class="icon"></span>
-                    <span class="title"><h2>sign out</h2></span>
-                </li>
-            </ul>
-        </div>
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="bi bi-apple"></i></span>
+              <span class="title"><h2>Brand name</h2></span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="bi bi-speedometer"></i></span>
+              <span class="title"><h2>Dashboard</h2></span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="bi bi-people"></i></span>
+              <span class="title"><h2>Customer</h2></span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="bi bi-chat-quote"></i></span>
+              <span class="title"><h2>Message</h2></span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="bi bi-question-lg"></i></span>
+              <span class="title"><h2>Help</h2></span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="bi bi-gear"></i></span>
+              <span class="title"><h2>Settings</h2></span>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="icon"><i class="bi bi-unlock-fill"></i></span>
+              <span class="title"><h2>Password</h2></span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="bi bi-exclamation-circle"></i></span>
+              <span class="title"><h2>sign out</h2></span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-    
-</body>
+    <div class="main-dashboard">
+      <div class="navigation-3">
+        <div class="toggle">
+          <i class="bi bi-list"></i>
+        </div>
+        <div class="search">
+          <label>
+            <input type="text" placeholder="search here" />
+            <i class="bi bi-search"></i>
+          </label>
+        </div>
+        <div class="user">
+          <small>Josephine</small>
+          <img src="assets/user.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="navigation-4">
+        <div>
+          <h2>Dashboard</h2>
+        </div>
+        <div>
+          <button type="button" class="generate">
+            <i class="bi bi-arrow-bar-up"></i>Generate</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
