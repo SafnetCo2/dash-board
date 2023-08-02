@@ -152,9 +152,10 @@ font-size: 24px;
     padding: 1.5px;
     margin: 1px;
     left:15rem;
+    color: #fff;
     /* width: 14%; */
     border-radius: 25%;
-    background: rgb(156, 207, 243);
+    background-color: #02972f;
     font-size: 2.2rem;
     
 
@@ -179,7 +180,7 @@ font-size: 24px;
     padding-left: 35;
 
 }
-.navigation-4{
+.mainSection-1{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -188,6 +189,119 @@ font-size: 24px;
     font-size: 1.2rem;
     padding: 10px;
 }
-.navigation-4 h2{
+.mainSection-1 h2{
     color: #978e8e;
 }
+.mainSection-1 .bi{
+    padding: 1px;
+    font-size: large;
+
+}
+.mainSection-1 button{
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    color: #fff;
+    background-color: #02972f;
+    font-size: 1.1rem;
+    border-radius: .6rem;
+
+
+
+
+}
+.cards{
+    margin-top: 2rem ;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    border: 1px solid red;
+    right: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.card{
+    display: inline-grid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1rem;
+    border-radius: .6rem;
+    max-width: 300px;
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-left-color: orange;
+
+}
+
+
+  
+.card-contents {
+    display: flex;
+    align-items: center;
+  }
+.card-contents span{
+    position: relative
+    ;
+    border-radius: 100%;
+    padding: .5rem;
+    background-color: #02972f;
+    color: #fff;
+    width: 2rem;
+    height: 2rem;
+}
+  
+
+  .card-contents-text {
+    margin-left: 0.5rem;
+    color: #4d5b71;
+    font-size: 1.2rem;
+  }
+  
+  .percent {
+
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    color: #02972f;
+    font-weight: 600;
+    display: flex;
+  }
+ 
+  
+  .amount{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .amount p {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #1F2937;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    text-align: left;
+  }
+  
+  .amount  .range {
+    position: relative;
+    background-color: #E5E7EB;
+    width: 100%;
+    height: 0.5rem;
+    
+    border-radius: 0.25rem;
+  }
+  
+  .amount .range .margin {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #02972f;
+    /* background-color: #10B981; */
+    width: 76%;
+    height: 100%;
+    border-radius: 0.25rem;
+
+  }
